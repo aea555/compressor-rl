@@ -1,0 +1,71 @@
+# Python
+.venv/
+__pycache__/
+*.py[oc]
+
+# macOS ve editör
+.DS_Store
+.vscode/
+
+# Eğitim çıktıları. Sadece README'deki sonuçları veren modeller ve grafikler repoda.
+runs/*
+!runs/pareto.png
+!runs/analiz/
+!runs/dayaniklilik/
+!runs/cem_sabit/
+!runs/klasik_q_kompakt/
+!runs/tile_qlearning_s0/
+!runs/g98_uzun_q_s0/
+!runs/g98_uzun_q_s1/
+!runs/yol_C/
+!runs/pareto_w0.3/
+!runs/pareto_w3/
+!runs/pareto_w10/
+!runs/bdq_5m/
+!runs/k2_w*_s[0-3]/
+!runs/k2_w3_eskieps_s0/
+runs/k2_*maskesiz*/
+runs/k2_*/ara/
+runs/k2_*/egitim.json
+runs/**/checkpoints/
+runs/**/tb/
+runs/**/best_model.zip
+runs/**/evaluations.npz
+runs/**/*.log
+runs/**/episode.png
+
+# evaluate.py --plot çıktısı
+/episode.png
+
+# Ara denemelerden kalan dosyalar
+supQ_*.npy
+cem_mu*.json
+
+# Ses kayıtları, video ve konuşma metni
+ses/
+*.mp4
+vize_konusma_metni.md
+
+# Unity'nin ürettiği dosyalar
+unity/Build/
+unity/*.log
+unity/KompresorViz/[Ll]ibrary/
+unity/KompresorViz/[Tt]emp/
+unity/KompresorViz/[Oo]bj/
+unity/KompresorViz/[Ll]ogs/
+unity/KompresorViz/[Uu]ser[Ss]ettings/
+unity/KompresorViz/*.csproj
+unity/KompresorViz/*.sln
+unity/KompresorViz/*.slnx
+
+# Repoda doküman olarak yalnızca README durur
+*.md
+!/README.md
+
+# Sadece README'de kullanılan resimler repoda
+*.png
+!runs/pareto.png
+!runs/analiz/yol_C_final_model.png
+!unity/ekran_gece.png
+!unity/ekran_ozet.png
+!unity/ekran_rehber.png

@@ -1,0 +1,22 @@
+{
+  "method": "qlearning",
+  "tablo": "kompakt2",
+  "timesteps": "30000000",
+  "decay_steps": "24000000",
+  "eps_end": "0.01",
+  "alpha": "0.2",
+  "alpha_end": "0.01",
+  "extra_obs": "False",
+  "uzun": "0",
+  "acil_yok": "True",
+  "sure_sec": "False",
+  "eps_hizli": "3000000",
+  "maske": "True",
+  "ortalama": "False",
+  "gamma": "0.98",
+  "w_start": "10.0",
+  "seed": "3",
+  "ara_kayit": "0",
+  "print_every": "500",
+  "out": "runs/k2_w10_s3"
+}

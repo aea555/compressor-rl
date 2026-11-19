@@ -1,0 +1,15 @@
+{
+  "timesteps": "5000000",
+  "buffer_size": "200000",
+  "batch_size": "256",
+  "learning_starts": "10000",
+  "train_freq": "4",
+  "eps_decay_steps": "300000",
+  "eps_end": "0.05",
+  "seed": "0",
+  "out": "runs/bdq_5m",
+  "checkpoint_every": "250000",
+  "w_start": "1.0",
+  "extra_obs": "True",
+  "reward_scale": "0.1"
+}

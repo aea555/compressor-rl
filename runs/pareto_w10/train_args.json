@@ -1,0 +1,11 @@
+{
+  "timesteps": "8000000",
+  "n_envs": "8",
+  "seed": "0",
+  "out": "runs/pareto_w10",
+  "checkpoint_every": "500000",
+  "w_start": "10.0",
+  "extra_obs": "True",
+  "normalize_reward": "True",
+  "lr_decay": "True"
+}

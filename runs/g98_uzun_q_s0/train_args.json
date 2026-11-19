@@ -1,0 +1,17 @@
+{
+  "method": "qlearning",
+  "tablo": "kompakt",
+  "timesteps": "30000000",
+  "decay_steps": "24000000",
+  "eps_end": "0.01",
+  "alpha": "0.2",
+  "alpha_end": "0.01",
+  "extra_obs": "False",
+  "uzun": "5.0",
+  "ortalama": "False",
+  "gamma": "0.98",
+  "w_start": "1.0",
+  "seed": "0",
+  "print_every": "500",
+  "out": "runs/g98_uzun_q_s0"
+}

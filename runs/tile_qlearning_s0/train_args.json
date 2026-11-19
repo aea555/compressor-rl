@@ -1,0 +1,15 @@
+{
+  "method": "qlearning",
+  "tablo": "tile",
+  "timesteps": "30000000",
+  "decay_steps": "24000000",
+  "eps_end": "0.01",
+  "alpha": "0.1",
+  "alpha_end": "0.01",
+  "ortalama": "False",
+  "gamma": "0.99",
+  "w_start": "1.0",
+  "seed": "0",
+  "print_every": "500",
+  "out": "runs/tile_qlearning_s0"
+}

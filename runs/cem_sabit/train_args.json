@@ -1,0 +1,11 @@
+{
+  "pop": "60",
+  "days": "16",
+  "iters": "30",
+  "elite": "0.2",
+  "w_start": "3.0",
+  "sabit": "True",
+  "workers": "10",
+  "seed": "0",
+  "out": "runs/cem_sabit"
+}
